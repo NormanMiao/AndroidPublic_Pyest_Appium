@@ -4,7 +4,7 @@ import time
 from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
 import os
-import unittest
+import pytest
 app_package ="com.tencent.wetestdemo"
 app_activity = "com.tencent.wetestdemo.LoginActivity"
 
